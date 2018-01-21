@@ -14,5 +14,5 @@ function increaseRankBy(n) {
   var integer = parseInt(n);
   var ranks = document.getElementById('app').querySelectorAll('ul.ranked-list')
 
-  return 
+  return
 }
