@@ -11,13 +11,13 @@ function deepestChild() {
 }
 
 function increaseRankBy(n) {
-  var integer = parseInt(n);
+  
   var lis = document.getElementById('app').querySelectorAll('ul.ranked-list li');
 
   for (let i = 0; i < lis.length; i++) {
     var x = lis[i]
     var anotherInteger = lis[i];
-  x.innerHTML = integer + anotherInteger;
+  x.innerHTML = n + anotherInteger;
 }
 
 }
