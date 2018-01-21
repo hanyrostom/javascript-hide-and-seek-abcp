@@ -16,7 +16,8 @@ function increaseRankBy(n) {
 
   for (let i = 0; i < lis.length; i++) {
     var x = lis[i]
-  x.innerHTML = integer;
+    var anotherInteger = lis[i];
+  x.innerHTML = integer + anotherInteger;
 }
 
 }
